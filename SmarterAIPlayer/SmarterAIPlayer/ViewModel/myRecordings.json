@@ -1,0 +1,22 @@
+{
+    "recordings": [
+        {
+            "id": 3437316,
+            "startTimestamp": 1716350252895,
+            "endTimestamp": 1716350258828,
+            "url":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+        },
+        {
+            "id": 3437327,
+            "startTimestamp": 1716350258895,
+            "endTimestamp": 1716350264828,
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+        },
+        {
+            "id": 3437340,
+            "startTimestamp": 1716350264895,
+            "endTimestamp": 1716350270828,
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+        }
+    ]
+}

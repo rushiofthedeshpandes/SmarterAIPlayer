@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6083E842C542B5D0003DB4F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6083E832C542B5D0003DB4F /* Helper.swift */; };
+		A690F0082C54E5D2006526D0 /* VideoRecording.swift in Sources */ = {isa = PBXBuildFile; fileRef = A690F0072C54E5D2006526D0 /* VideoRecording.swift */; };
+		A690F00A2C5508BF006526D0 /* VideoDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A690F0092C5508BF006526D0 /* VideoDataViewModel.swift */; };
+		A690F00C2C55099C006526D0 /* recordings.json in Resources */ = {isa = PBXBuildFile; fileRef = A690F00B2C55099C006526D0 /* recordings.json */; };
+		A690F00E2C550BBB006526D0 /* myRecordings.json in Resources */ = {isa = PBXBuildFile; fileRef = A690F00D2C550BBB006526D0 /* myRecordings.json */; };
+		A690F0162C552BBB006526D0 /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A690F0152C552BBB006526D0 /* InternetConnectionManager.swift */; };
+		F44A0C2A2A4D96F1005DB927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A0C292A4D96F1005DB927 /* AppDelegate.swift */; };
+		F44A0C2C2A4D96F1005DB927 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A0C2B2A4D96F1005DB927 /* SceneDelegate.swift */; };
+		F44A0C2E2A4D96F1005DB927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A0C2D2A4D96F1005DB927 /* ViewController.swift */; };
+		F44A0C312A4D96F1005DB927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A0C2F2A4D96F1005DB927 /* Main.storyboard */; };
+		F44A0C332A4D96F2005DB927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44A0C322A4D96F2005DB927 /* Assets.xcassets */; };
+		F44A0C362A4D96F2005DB927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A0C342A4D96F2005DB927 /* LaunchScreen.storyboard */; };
+		F44A0C412A4D96F2005DB927 /* SmarterAIPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A0C402A4D96F2005DB927 /* SmarterAIPlayerTests.swift */; };
+		F44A0C4B2A4D96F2005DB927 /* SmarterAIPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A0C4A2A4D96F2005DB927 /* SmarterAIPlayerUITests.swift */; };
+		F44A0C4D2A4D96F2005DB927 /* SmarterAIPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A0C4C2A4D96F2005DB927 /* SmarterAIPlayerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44A0C3D2A4D96F2005DB927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44A0C1E2A4D96F1005DB927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44A0C252A4D96F1005DB927;
+			remoteInfo = NetflixPlayer;
+		};
+		F44A0C472A4D96F2005DB927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44A0C1E2A4D96F1005DB927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44A0C252A4D96F1005DB927;
+			remoteInfo = NetflixPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6083E832C542B5D0003DB4F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A690F0072C54E5D2006526D0 /* VideoRecording.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRecording.swift; sourceTree = "<group>"; };
+		A690F0092C5508BF006526D0 /* VideoDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDataViewModel.swift; sourceTree = "<group>"; };
+		A690F00B2C55099C006526D0 /* recordings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recordings.json; sourceTree = "<group>"; };
+		A690F00D2C550BBB006526D0 /* myRecordings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myRecordings.json; sourceTree = "<group>"; };
+		A690F0152C552BBB006526D0 /* InternetConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
+		F44A0C262A4D96F1005DB927 /* SmarterAIPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmarterAIPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44A0C292A4D96F1005DB927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F44A0C2B2A4D96F1005DB927 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F44A0C2D2A4D96F1005DB927 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F44A0C302A4D96F1005DB927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F44A0C322A4D96F2005DB927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44A0C352A4D96F2005DB927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F44A0C372A4D96F2005DB927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44A0C3C2A4D96F2005DB927 /* SmarterAIPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmarterAIPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44A0C402A4D96F2005DB927 /* SmarterAIPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmarterAIPlayerTests.swift; sourceTree = "<group>"; };
+		F44A0C462A4D96F2005DB927 /* SmarterAIPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmarterAIPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44A0C4A2A4D96F2005DB927 /* SmarterAIPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmarterAIPlayerUITests.swift; sourceTree = "<group>"; };
+		F44A0C4C2A4D96F2005DB927 /* SmarterAIPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmarterAIPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44A0C232A4D96F1005DB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44A0C392A4D96F2005DB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44A0C432A4D96F2005DB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A690F00F2C55274A006526D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A690F00B2C55099C006526D0 /* recordings.json */,
+				A690F00D2C550BBB006526D0 /* myRecordings.json */,
+				A690F0092C5508BF006526D0 /* VideoDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A690F0102C55276A006526D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A690F0072C54E5D2006526D0 /* VideoRecording.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A690F0112C552775006526D0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A6083E832C542B5D0003DB4F /* Helper.swift */,
+				A690F0152C552BBB006526D0 /* InternetConnectionManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A690F0122C55277D006526D0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F44A0C2D2A4D96F1005DB927 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A690F0132C552792006526D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F44A0C2F2A4D96F1005DB927 /* Main.storyboard */,
+				F44A0C342A4D96F2005DB927 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A690F0142C55279C006526D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F44A0C322A4D96F2005DB927 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F44A0C1D2A4D96F1005DB927 = {
+			isa = PBXGroup;
+			children = (
+				F44A0C282A4D96F1005DB927 /* SmarterAIPlayer */,
+				F44A0C3F2A4D96F2005DB927 /* SmarterAIPlayerTests */,
+				F44A0C492A4D96F2005DB927 /* SmarterAIPlayerUITests */,
+				F44A0C272A4D96F1005DB927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44A0C272A4D96F1005DB927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44A0C262A4D96F1005DB927 /* SmarterAIPlayer.app */,
+				F44A0C3C2A4D96F2005DB927 /* SmarterAIPlayerTests.xctest */,
+				F44A0C462A4D96F2005DB927 /* SmarterAIPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44A0C282A4D96F1005DB927 /* SmarterAIPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F44A0C292A4D96F1005DB927 /* AppDelegate.swift */,
+				F44A0C2B2A4D96F1005DB927 /* SceneDelegate.swift */,
+				A690F0122C55277D006526D0 /* ViewControllers */,
+				A690F0112C552775006526D0 /* Helpers */,
+				A690F0102C55276A006526D0 /* Model */,
+				A690F00F2C55274A006526D0 /* ViewModel */,
+				A690F0132C552792006526D0 /* Views */,
+				A690F0142C55279C006526D0 /* Resources */,
+				F44A0C372A4D96F2005DB927 /* Info.plist */,
+			);
+			path = SmarterAIPlayer;
+			sourceTree = "<group>";
+		};
+		F44A0C3F2A4D96F2005DB927 /* SmarterAIPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44A0C402A4D96F2005DB927 /* SmarterAIPlayerTests.swift */,
+			);
+			path = SmarterAIPlayerTests;
+			sourceTree = "<group>";
+		};
+		F44A0C492A4D96F2005DB927 /* SmarterAIPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F44A0C4A2A4D96F2005DB927 /* SmarterAIPlayerUITests.swift */,
+				F44A0C4C2A4D96F2005DB927 /* SmarterAIPlayerUITestsLaunchTests.swift */,
+			);
+			path = SmarterAIPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44A0C252A4D96F1005DB927 /* SmarterAIPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44A0C502A4D96F2005DB927 /* Build configuration list for PBXNativeTarget "SmarterAIPlayer" */;
+			buildPhases = (
+				F44A0C222A4D96F1005DB927 /* Sources */,
+				F44A0C232A4D96F1005DB927 /* Frameworks */,
+				F44A0C242A4D96F1005DB927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmarterAIPlayer;
+			productName = NetflixPlayer;
+			productReference = F44A0C262A4D96F1005DB927 /* SmarterAIPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44A0C3B2A4D96F2005DB927 /* SmarterAIPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44A0C532A4D96F2005DB927 /* Build configuration list for PBXNativeTarget "SmarterAIPlayerTests" */;
+			buildPhases = (
+				F44A0C382A4D96F2005DB927 /* Sources */,
+				F44A0C392A4D96F2005DB927 /* Frameworks */,
+				F44A0C3A2A4D96F2005DB927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44A0C3E2A4D96F2005DB927 /* PBXTargetDependency */,
+			);
+			name = SmarterAIPlayerTests;
+			productName = NetflixPlayerTests;
+			productReference = F44A0C3C2A4D96F2005DB927 /* SmarterAIPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44A0C452A4D96F2005DB927 /* SmarterAIPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44A0C562A4D96F2005DB927 /* Build configuration list for PBXNativeTarget "SmarterAIPlayerUITests" */;
+			buildPhases = (
+				F44A0C422A4D96F2005DB927 /* Sources */,
+				F44A0C432A4D96F2005DB927 /* Frameworks */,
+				F44A0C442A4D96F2005DB927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44A0C482A4D96F2005DB927 /* PBXTargetDependency */,
+			);
+			name = SmarterAIPlayerUITests;
+			productName = NetflixPlayerUITests;
+			productReference = F44A0C462A4D96F2005DB927 /* SmarterAIPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44A0C1E2A4D96F1005DB927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F44A0C252A4D96F1005DB927 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F44A0C3B2A4D96F2005DB927 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F44A0C252A4D96F1005DB927;
+					};
+					F44A0C452A4D96F2005DB927 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F44A0C252A4D96F1005DB927;
+					};
+				};
+			};
+			buildConfigurationList = F44A0C212A4D96F1005DB927 /* Build configuration list for PBXProject "SmarterAIPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44A0C1D2A4D96F1005DB927;
+			productRefGroup = F44A0C272A4D96F1005DB927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44A0C252A4D96F1005DB927 /* SmarterAIPlayer */,
+				F44A0C3B2A4D96F2005DB927 /* SmarterAIPlayerTests */,
+				F44A0C452A4D96F2005DB927 /* SmarterAIPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44A0C242A4D96F1005DB927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44A0C362A4D96F2005DB927 /* LaunchScreen.storyboard in Resources */,
+				A690F00E2C550BBB006526D0 /* myRecordings.json in Resources */,
+				F44A0C332A4D96F2005DB927 /* Assets.xcassets in Resources */,
+				F44A0C312A4D96F1005DB927 /* Main.storyboard in Resources */,
+				A690F00C2C55099C006526D0 /* recordings.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44A0C3A2A4D96F2005DB927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44A0C442A4D96F2005DB927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44A0C222A4D96F1005DB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A690F0162C552BBB006526D0 /* InternetConnectionManager.swift in Sources */,
+				F44A0C2E2A4D96F1005DB927 /* ViewController.swift in Sources */,
+				A690F0082C54E5D2006526D0 /* VideoRecording.swift in Sources */,
+				F44A0C2A2A4D96F1005DB927 /* AppDelegate.swift in Sources */,
+				F44A0C2C2A4D96F1005DB927 /* SceneDelegate.swift in Sources */,
+				A690F00A2C5508BF006526D0 /* VideoDataViewModel.swift in Sources */,
+				A6083E842C542B5D0003DB4F /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44A0C382A4D96F2005DB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44A0C412A4D96F2005DB927 /* SmarterAIPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44A0C422A4D96F2005DB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44A0C4D2A4D96F2005DB927 /* SmarterAIPlayerUITestsLaunchTests.swift in Sources */,
+				F44A0C4B2A4D96F2005DB927 /* SmarterAIPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44A0C3E2A4D96F2005DB927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44A0C252A4D96F1005DB927 /* SmarterAIPlayer */;
+			targetProxy = F44A0C3D2A4D96F2005DB927 /* PBXContainerItemProxy */;
+		};
+		F44A0C482A4D96F2005DB927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44A0C252A4D96F1005DB927 /* SmarterAIPlayer */;
+			targetProxy = F44A0C472A4D96F2005DB927 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F44A0C2F2A4D96F1005DB927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44A0C302A4D96F1005DB927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F44A0C342A4D96F2005DB927 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44A0C352A4D96F2005DB927 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44A0C4E2A4D96F2005DB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44A0C4F2A4D96F2005DB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44A0C512A4D96F2005DB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmarterAIPlayer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SmarterAIPlayer;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RushikeshDeshpande.SmarterAIPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44A0C522A4D96F2005DB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmarterAIPlayer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SmarterAIPlayer;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RushikeshDeshpande.SmarterAIPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F44A0C542A4D96F2005DB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Push.NetflixPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmarterAIPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmarterAIPlayer";
+			};
+			name = Debug;
+		};
+		F44A0C552A4D96F2005DB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Push.NetflixPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmarterAIPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmarterAIPlayer";
+			};
+			name = Release;
+		};
+		F44A0C572A4D96F2005DB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Push.NetflixPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetflixPlayer;
+			};
+			name = Debug;
+		};
+		F44A0C582A4D96F2005DB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Push.NetflixPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetflixPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44A0C212A4D96F1005DB927 /* Build configuration list for PBXProject "SmarterAIPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44A0C4E2A4D96F2005DB927 /* Debug */,
+				F44A0C4F2A4D96F2005DB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44A0C502A4D96F2005DB927 /* Build configuration list for PBXNativeTarget "SmarterAIPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44A0C512A4D96F2005DB927 /* Debug */,
+				F44A0C522A4D96F2005DB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44A0C532A4D96F2005DB927 /* Build configuration list for PBXNativeTarget "SmarterAIPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44A0C542A4D96F2005DB927 /* Debug */,
+				F44A0C552A4D96F2005DB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44A0C562A4D96F2005DB927 /* Build configuration list for PBXNativeTarget "SmarterAIPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44A0C572A4D96F2005DB927 /* Debug */,
+				F44A0C582A4D96F2005DB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44A0C1E2A4D96F1005DB927 /* Project object */;
+}

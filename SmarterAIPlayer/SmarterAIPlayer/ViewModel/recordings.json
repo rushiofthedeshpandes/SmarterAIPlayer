@@ -1,0 +1,22 @@
+{
+    "recordings": [
+        {
+            "id": 3437316,
+            "startTimestamp": 1716350252895,
+            "endTimestamp": 1716350258828,
+            "url":"https://www.dropbox.com/scl/fi/ldlysnk6lhdoocz7n7gd2/video1.mp4?rlkey=uxxl58t1k1n0r5ot5i6dwdy5n&st=slpm3935&dl=1"
+        },
+        {
+            "id": 3437327,
+            "startTimestamp": 1716350258895,
+            "endTimestamp": 1716350264828,
+            "url": "https://www.dropbox.com/scl/fi/dwkgv7tbwhouo25vfvkxu/video2.mp4?rlkey=v80dj9z3l83agb8wmzqsh367s&st=7m33zyyo&dl=1"
+        },
+        {
+            "id": 3437340,
+            "startTimestamp": 1716350264895,
+            "endTimestamp": 1716350270828,
+            "url": "https://www.dropbox.com/scl/fi/dtfll8wif61m63hyl3dws/video3.mp4?rlkey=d7b4t54wce5s75x0zu1438ku5&st=p6zc5b1y&dl=1"
+        }
+    ]
+}
